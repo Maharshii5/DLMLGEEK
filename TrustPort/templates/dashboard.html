@@ -1,0 +1,124 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard | TrustPort{% endblock %}
+
+{% block content %}
+<div class="dashboard-page">
+    <h2 class="mb-4">Dashboard</h2>
+    
+    <!-- Wallet Card -->
+    <div class="wallet-card">
+        <div class="wallet-label">Your Balance</div>
+        <div id="wallet-balance" class="wallet-balance">${{ "%.2f"|format(wallet.balance) }}</div>
+        <div class="wallet-info">
+            <div class="wallet-id-container">
+                Wallet ID: <span id="wallet-id">{{ wallet.wallet_id }}</span>
+                <button id="copy-wallet-id" class="btn-copy">
+                    <i class="fas fa-copy"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Quick Actions -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Quick Actions</h5>
+            <div class="quick-actions">
+                <a href="{{ url_for('send_money') }}" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Send Money
+                </a>
+                <a href="{{ url_for('transactions') }}" class="btn btn-success">
+                    <i class="fas fa-history"></i> Transaction History
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Transactions -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">Recent Transactions</h5>
+        </div>
+        <div class="card-body">
+            {% if recent_transactions %}
+                <div class="transaction-list">
+                    {% for tx in recent_transactions %}
+                        {% set is_outgoing = tx.sender_wallet_id == wallet.wallet_id %}
+                        <div class="transaction-item">
+                            <div class="transaction-icon {{ 'outgoing' if is_outgoing else 'incoming' }}">
+                                <i class="fas fa-{{ 'arrow-up' if is_outgoing else 'arrow-down' }}"></i>
+                            </div>
+                            <div class="transaction-details">
+                                <div class="transaction-title">{{ tx.description or 'Transaction' }}</div>
+                                <div class="transaction-info">
+                                    {{ 'To: ' + tx.receiver_wallet_id if is_outgoing else 'From: ' + tx.sender_wallet_id }}
+                                </div>
+                                <div class="transaction-date">{{ tx.timestamp.strftime('%Y-%m-%d %H:%M') }}</div>
+                            </div>
+                            <div class="transaction-amount {{ 'outgoing' if is_outgoing else 'incoming' }}">
+                                {{ '-' if is_outgoing else '+' }}${{ "%.2f"|format(tx.amount) }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                
+                <div class="text-center mt-3">
+                    <a href="{{ url_for('transactions') }}" class="btn btn-primary">View All Transactions</a>
+                </div>
+            {% else %}
+                <div class="empty-state">
+                    <div class="empty-state-icon">📭</div>
+                    <h3>No transactions yet</h3>
+                    <p>Start using your wallet by sending money to others.</p>
+                    <a href="{{ url_for('send_money') }}" class="btn btn-primary mt-2">Send Money</a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<style>
+    .quick-actions {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .wallet-label {
+        font-size: 0.875rem;
+        opacity: 0.8;
+        margin-bottom: 0.5rem;
+    }
+    
+    .wallet-id-container {
+        display: flex;
+        align-items: center;
+        font-size: 0.875rem;
+    }
+    
+    .btn-copy {
+        background: none;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        margin-left: 0.5rem;
+        padding: 0.25rem;
+        font-size: 0.875rem;
+    }
+    
+    .btn-copy:hover {
+        color: #fff;
+    }
+    
+    .empty-state {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .empty-state-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+</style>
+{% endblock %}
