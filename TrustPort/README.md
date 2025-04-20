@@ -7,10 +7,10 @@
 TrustPort serves as a backend service for a mobile application, handling core logic, API routes, and dynamic rendering with HTML templates. It is structured with modularity in mind to support easy scaling and maintenance.
 ## 📸 Screenshots
 
-### 🔹 Dashboard
+### 🔹 Dashboard and Sample UI template
 ![TrustPort Dashboard]()
 
-### 🔹 Sample UI Template (if available)
+
 
 ## 🚀 Features
 
