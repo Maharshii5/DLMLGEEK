@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
-  <rect width="200" height="60" rx="5" fill="#0066b3"/>
-  <text x="100" y="37" font-family="Arial" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">CITIZENS BANK</text>
-  <path d="M30,30 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" fill="none" stroke="#ffffff" stroke-width="2"/>
-  <path d="M35,30 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" fill="#ffffff"/>
-</svg>

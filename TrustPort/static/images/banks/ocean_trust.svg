@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
-  <rect width="200" height="60" rx="5" fill="#01579b"/>
-  <text x="100" y="37" font-family="Arial" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">OCEAN TRUST</text>
-  <path d="M35,30 C40,25 45,35 50,25 C55,35 60,25 65,30" stroke="#ffffff" stroke-width="2" fill="none"/>
-  <path d="M35,35 C40,30 45,40 50,30 C55,40 60,30 65,35" stroke="#ffffff" stroke-width="2" fill="none"/>
-</svg>

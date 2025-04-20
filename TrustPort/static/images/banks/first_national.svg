@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
-  <rect width="200" height="60" rx="5" fill="#1b5e20"/>
-  <text x="100" y="37" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">FIRST NATIONAL</text>
-  <polygon points="45,20 75,20 60,40" fill="#ffffff"/>
-  <rect x="50" y="40" width="20" height="5" fill="#ffffff"/>
-</svg>
