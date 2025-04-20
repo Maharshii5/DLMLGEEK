@@ -8,9 +8,9 @@ TrustPort serves as a backend service for a mobile application, handling core lo
 ## 📸 Screenshots
 
 ### 🔹 Dashboard and Sample UI template
-![TrustPort Dashboard](./images/dasahboardtp.jpg)
-(./images/dasahboard.tp2.jpg)
-(./images/dasahboard.tp3.jpg)
+![TrustPort Dashboard](./TrustPort/images/dasahboardtp.jpg)
+![TrustPort Dashboard](./TrustPort/images/dasahboard.tp2.jpg)
+![UI](./TrustPort/images/dasahboard.tp3.jpg)
 
 
 
