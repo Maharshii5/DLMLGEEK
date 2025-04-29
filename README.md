@@ -9,8 +9,8 @@ This repository hosts my original research work spanning Artificial Intelligence
 ## 🧰 Tools & Technologies
 
 - **Languages:** Python
-- **Libraries Used (across papers):** scikit-learn, PyTorch, TensorFlow, NLTK, spaCy, Transformers, NetworkX, NumPy, Pandas, Matplotlib, Seaborn
-- **Research Tools:** Overleaf, Jupyter Notebooks, Mendeley, Zotero
+- **Libraries Used (across papers):** scikit-learn, PyTorch, TensorFlow, NLTK, spaCy, Transformers, NetworkX, NumPy, Pandas, Matplotlib, Seaborn.
+- **Research Tools:** Overleaf, Jupyter Notebooks, Mendeley, Zotero.
 
 ---
 
