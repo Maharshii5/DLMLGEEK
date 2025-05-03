@@ -1,4 +1,4 @@
-## 📜 Certifications & Online Courses
+## 📜  My certifications
 
 ### 🛡️ Cybersecurity
 - [Foundations of Cybersecurity – Google](https://www.coursera.org/account/accomplishments/certificate/CEHENRNCPGTZ)
