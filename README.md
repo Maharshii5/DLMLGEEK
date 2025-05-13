@@ -41,7 +41,7 @@ This repository hosts my original research work spanning Artificial Intelligence
    _OSF, 2025_  
    [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5105373)
 
-6. **Unveiling the Mind: A Survey on Stress Detection Using ML/DL**  
+6. **Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques**  
    _OSF, 2025_  
    [Preprint](https://osf.io/w8a3y_v1/)
 
