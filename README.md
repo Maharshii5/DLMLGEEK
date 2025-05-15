@@ -24,7 +24,7 @@ This repository hosts my original research work spanning Artificial Intelligence
 
 2. **Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques**  
    _International Journal of Pharmaceutical Sciences, May 2025_  
-   [PDF](https://www.doi.org/10.5281/zenodo.15421033) | [Citation](#)Maharshi Patel*, Yash Bodaka, Gayatri Pandi, Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques, Int. J. Sci. R. Tech., 2025, 2 (5), 299-325. https://doi.org/10.5281/zenodo.15421033 )
+   [PDF](https://www.doi.org/10.5281/zenodo.15421033) | [Citation](#) Maharshi Patel*, Yash Bodaka, Gayatri Pandi, Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques, Int. J. Sci. R. Tech., 2025, 2 (5), 299-325. https://doi.org/10.5281/zenodo.15421033 )
 
 
 ---
