@@ -20,11 +20,11 @@ This repository hosts my original research work spanning Artificial Intelligence
 ### 🟢 Published
 1. **A Study on the Performance of NLP-Based Models in Abusive Content Classification**  
    _International Journal of Progressive Research in Engineering and Management, Jan 2025_  
-   [PDF](https://www.doi.org/10.58257/IJPREMS38262) | [Citation](#) Maharshi Patel, "A Study on the Performance of NLP-Based Models in Abusive Content Classification," International Journal of Progressive Research in Engineering and Management, Vol. 05, Issue 01, January 2025, pp : 1057-1068 . Available: https://www.doi.org/10.58257/IJPREMS38262 )
+   [PDF](https://www.doi.org/10.58257/IJPREMS38262) | [Citation](#) Maharshi Patel, "A Study on the Performance of NLP-Based Models in Abusive Content Classification," International Journal of Progressive Research in Engineering and Management, Vol. 05, Issue 01, January 2025, pp : 1057-1068 . Available: https://www.doi.org/10.58257/IJPREMS38262 
 
 2. **Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques**  
    _International Journal of Pharmaceutical Sciences, May 2025_  
-   [PDF](https://www.doi.org/10.5281/zenodo.15421033) | [Citation](#) Maharshi Patel*, Yash Bodaka, Gayatri Pandi, Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques, Int. J. Sci. R. Tech., 2025, 2 (5), 299-325. https://doi.org/10.5281/zenodo.15421033 )
+   [PDF](https://www.doi.org/10.5281/zenodo.15421033) | [Citation](#) Maharshi Patel*, Yash Bodaka, Gayatri Pandi, Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques, Int. J. Sci. R. Tech., 2025, 2 (5), 299-325. https://doi.org/10.5281/zenodo.15421033 
 
 
 ---
