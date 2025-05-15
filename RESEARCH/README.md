@@ -7,6 +7,10 @@
    🔗 [PDF](https://www.doi.org/10.58257/IJPREMS38262)  
    **Summary**: Evaluated traditional and deep learning NLP models (e.g., BERT, LSTM, SVM) for detecting abusive language across multilingual datasets. Found that transformer-based models significantly outperform traditional classifiers in accuracy and contextual understanding.
 
+2. **Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques**  
+   _International Journal of Pharmaceutical Sciences, May 2025_  
+   [PDF](https://www.doi.org/10.5281/zenodo.15421033) | [Citation](#) Maharshi Patel*, Yash Bodaka, Gayatri Pandi, Unveiling the Mind: A Survey on Stress Detection Using Machine Learning and Deep Learning Techniques, Int. J. Sci. R. Tech., 2025, 2 (5), 299-325. https://doi.org/10.5281/zenodo.15421033 
+
 ---
 
 ### 🔬 Preprints
@@ -31,12 +35,7 @@
    🔗 [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5105373)  
    **Summary**: Analyzed gamification strategies from a neurobiological perspective, focusing on dopamine reward loops in app-based consumer loyalty programs. Offers a behavioral model for gamified customer engagement.
 
-6. **Unveiling the Mind: A Survey on Stress Detection Using ML/DL**  
-   _OSF, 2025_  
-   🔗 [Preprint](https://osf.io/w8a3y_v1/)  
-   **Summary**: Comprehensive survey of over 50 machine learning and deep learning studies for stress detection. Covered biometric and physiological signals, model performance metrics, and dataset diversity.
-
-7. **A Comprehensive Review on Heart Disease Detection Using ML/DL Techniques**  
+6. **A Comprehensive Review on Heart Disease Detection Using ML/DL Techniques**  
    _TechRxiv, 2025_  
    🔗 [Preprint](https://doi.org/10.36227/techrxiv.174494889.99688489/v1)  
    **Summary**: Analyzed and compared multiple ML/DL models for heart disease prediction across benchmark datasets. Provided insights into model interpretability, performance, and clinical application readiness.
