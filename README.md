@@ -34,19 +34,19 @@ This repository hosts my original research work spanning Artificial Intelligence
 
 ### 🔬 Preprints
 
-2. **Neuro-Symbolic Optimization for Explainable AI-Driven Decision-Making in Complex Systems**  
+4. **Neuro-Symbolic Optimization for Explainable AI-Driven Decision-Making in Complex Systems**  
    _TechRxiv, Apr 2025_  
    [Preprint](https://doi.org/10.36227/techrxiv.174431322.29730206/v1)
 
-3. **The Intersection of Blockchain and AI in B2B Embedded Finance**  
+5. **The Intersection of Blockchain and AI in B2B Embedded Finance**  
    _TechRxiv, Jan 2025_  
    [Preprint](https://doi.org/10.36227/techrxiv.174431344.40887416/v1)
 
-4. **Neuroscience of Consumer Gamification: The Role of Dopamine in Customer Loyalty**  
+6. **Neuroscience of Consumer Gamification: The Role of Dopamine in Customer Loyalty**  
    _OSF, 2025_  
    [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5105373)
 
-5. **A Comprehensive Review on Heart Disease Detection Using ML/DL Techniques**  
+7. **A Comprehensive Review on Heart Disease Detection Using ML/DL Techniques**  
    _TechRxiv, 2025_  
    [Preprint](https://doi.org/10.36227/techrxiv.174494889.99688489/v1)
 
